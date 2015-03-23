@@ -116,18 +116,6 @@
 						</valuemap>
 					</data>
 				</component>
-				<component name="Booking" library="core" uid="358" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1012"/>
-						<datapoint pos="1" key="1013"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1014"/>
-						<datapoint/>
-					</targets>
-					<view ltx="477" lty="-184" rbx="580" rby="-128"/>
-				</component>
 				<component name="date_of_birth" library="core" uid="349" kind="3">
 					<properties/>
 					<sources>
@@ -801,17 +789,6 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="constant" library="core" uid="331" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="1079"/>
-					</targets>
-					<view ltx="-260" lty="-262" rbx="-24" rby="-244"/>
-					<data>
-						<constant value="C:\Andreas\Dropbox\GMI\FTPFiles\PNR by day flight date\M" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
 				<component name="Ticket" library="core" uid="576" kind="3">
 					<properties/>
 					<sources>
@@ -1081,17 +1058,6 @@
 						</root>
 					</data>
 				</component>
-				<component name="constant" library="core" uid="449" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="1236"/>
-					</targets>
-					<view ltx="-229" lty="-237" rbx="-81" rby="-219"/>
-					<data>
-						<constant value="\*.XML" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
 				<component name="value-map" library="core" uid="16" kind="23">
 					<properties/>
 					<sources>
@@ -1139,7 +1105,7 @@
 					<properties/>
 					<view ltx="813" lty="1113" rbx="991" rby="1313"/>
 					<data>
-						<root scrollposition="1">
+						<root>
 							<header>
 								<namespaces/>
 							</header>
@@ -1270,27 +1236,6 @@
 					</targets>
 					<view ltx="344" lty="1934" rbx="454" rby="1973"/>
 				</component>
-				<component name="has_text" library="user" blackbox="0" uid="730" kind="19" visible="0">
-					<view ltx="638" lty="-468" rbx="863" rby="-451"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="input_string" inpkey="1908" componentid="375"/>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="string_is_not_empty" outkey="1859" componentid="376"/>
-						</root>
-					</data>
-				</component>
 				<component name="string-join" library="core" uid="741" kind="5">
 					<properties/>
 					<sources>
@@ -1302,18 +1247,6 @@
 						<datapoint/>
 					</targets>
 					<view ltx="1106" lty="-423" rbx="1220" rby="-350"/>
-				</component>
-				<component name="string-join" library="core" uid="748" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1909"/>
-						<datapoint pos="1" key="1910"/>
-						<datapoint pos="2" key="1911"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1912"/>
-					</targets>
-					<view ltx="1256" lty="-395" rbx="1370" rby="-322"/>
 				</component>
 				<component name="empty" library="lang" uid="123" kind="5">
 					<properties/>
@@ -1341,7 +1274,7 @@
 					<properties/>
 					<view ltx="997" lty="1" rbx="1100" rby="37"/>
 					<data>
-						<root scrollposition="1">
+						<root>
 							<header>
 								<namespaces>
 									<namespace uid="http://www.altova.com/mapforce"/>
@@ -1428,30 +1361,6 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="logical-and" library="core" uid="539" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1386"/>
-						<datapoint pos="1" key="1387"/>
-						<datapoint pos="2" key="1446"/>
-						<datapoint pos="3" key="1515"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1399"/>
-					</targets>
-					<view ltx="763" lty="975" rbx="875" rby="1069"/>
-				</component>
-				<component name="not-equal" library="core" uid="362" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1018"/>
-						<datapoint pos="1" key="1019"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1020"/>
-					</targets>
-					<view ltx="424" lty="-84" rbx="529" rby="-28"/>
-				</component>
 				<component name="logical-not" library="core" uid="733" kind="5">
 					<properties/>
 					<sources>
@@ -1461,29 +1370,6 @@
 						<datapoint/>
 					</targets>
 					<view ltx="713" lty="-397" rbx="822" rby="-358"/>
-				</component>
-				<component name="logical-and" library="core" uid="550" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1427"/>
-						<datapoint pos="1" key="1428"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1429"/>
-					</targets>
-					<view ltx="1126" lty="-199" rbx="1238" rby="-141"/>
-				</component>
-				<component name="string-join" library="core" uid="745" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1888"/>
-						<datapoint pos="1" key="1891"/>
-						<datapoint pos="2" key="1890"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1889"/>
-					</targets>
-					<view ltx="1257" lty="-455" rbx="1371" rby="-382"/>
 				</component>
 				<component name="string-join" library="core" uid="750" kind="5">
 					<properties/>
@@ -1519,41 +1405,6 @@
 						<datapoint/>
 					</targets>
 					<view ltx="1255" lty="-275" rbx="1369" rby="-202"/>
-				</component>
-				<component name="logical-or" library="core" uid="728" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1865"/>
-						<datapoint pos="1" key="1866"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1867"/>
-					</targets>
-					<view ltx="922" lty="-397" rbx="1026" rby="-339"/>
-				</component>
-				<component name="File" library="core" uid="734" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1862"/>
-						<datapoint pos="1" key="1863"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1864"/>
-						<datapoint/>
-					</targets>
-					<view ltx="1089" lty="-500" rbx="1192" rby="-444"/>
-				</component>
-				<component name="filter" library="core" uid="364" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1015"/>
-						<datapoint pos="1" key="1016"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1017"/>
-						<datapoint/>
-					</targets>
-					<view ltx="1541" lty="-280" rbx="1644" rby="-224"/>
 				</component>
 				<component name="concat" library="core" uid="68" kind="5" growable="1" growablebasename="value">
 					<properties/>
@@ -1591,97 +1442,6 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="PNR-GMI" library="xml" uid="296" kind="14">
-					<properties XSLTTargetEncoding="UTF-8" EnableMinMaxOccursOptimizations="0" DynamicFilenames="1"/>
-					<view ltx="-229" lty="-118" rbx="219" rby="2480"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" inpkey="1078" outkey="654" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="Booking" outkey="779" expanded="1">
-										<entry name="Header">
-											<entry name="BookingHeader" outkey="962">
-												<entry name="booking_id" outkey="942"/>
-												<entry name="record_locator" outkey="780"/>
-												<entry name="booking_source_rcd" outkey="1266"/>
-												<entry name="agency_code" outkey="1285"/>
-												<entry name="contact_email" outkey="840"/>
-												<entry name="phone_business" outkey="1101"/>
-												<entry name="received_from" outkey="1286"/>
-												<entry name="sender_locator_search" outkey="829"/>
-												<entry name="vendor_rcd" outkey="1868"/>
-												<entry name="iata_number" outkey="834"/>
-												<entry name="phone" outkey="1102"/>
-												<entry name="email" outkey="1087"/>
-												<entry name="segment_airline_rcd" outkey="880"/>
-											</entry>
-										</entry>
-										<entry name="Passengers" outkey="881">
-											<entry name="Passenger" outkey="882" expanded="1">
-												<entry name="passenger_id" outkey="883"/>
-												<entry name="passenger_type_rcd" outkey="838"/>
-												<entry name="lastname" outkey="884"/>
-												<entry name="firstname" outkey="885"/>
-												<entry name="date_of_birth" outkey="982"/>
-												<entry name="title_rcd" outkey="836"/>
-												<entry name="gender_type_rcd" outkey="983"/>
-											</entry>
-										</entry>
-										<entry name="Itinerary" expanded="1">
-											<entry name="FlightSegment" outkey="782" expanded="1">
-												<entry name="booking_segment_id" outkey="1453"/>
-												<entry name="flight_id" outkey="1580"/>
-												<entry name="airline_rcd" outkey="886"/>
-												<entry name="flight_number" outkey="887"/>
-												<entry name="booking_class_rcd" outkey="1293"/>
-												<entry name="departure_date" outkey="783"/>
-												<entry name="departure_time" outkey="794"/>
-												<entry name="arrival_time" outkey="818"/>
-												<entry name="segment_status_rcd" outkey="1029"/>
-												<entry name="origin_rcd" outkey="889"/>
-												<entry name="destination_rcd" outkey="890"/>
-												<entry name="flight_status_rcd" outkey="1430"/>
-												<entry name="segment_status_name" outkey="1454"/>
-											</entry>
-										</entry>
-										<entry name="Tickets" outkey="1413" expanded="1">
-											<entry name="Ticket" outkey="854" expanded="1">
-												<entry name="passenger_id" outkey="984"/>
-												<entry name="passenger_type_rcd" outkey="1581"/>
-												<entry name="flight_id" outkey="1582"/>
-												<entry name="flight_number" outkey="891"/>
-												<entry name="departure_date" outkey="892"/>
-												<entry name="seat_number" outkey="893"/>
-												<entry name="seat_row" outkey="894"/>
-												<entry name="ticket_number" outkey="1528"/>
-											</entry>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="\\anne-mette-pc\c$\Andreas\Dropbox\GMI\OTA_AirBook\PNR-GMI.xsd" inputinstance="\\anne-mette-pc\c$\Andreas\Dropbox\GMI\FTPFiles\PNR by day flight date\20150312\PNR A188VI.XML" instanceroot="{}Booking"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="string-join" library="core" uid="744" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1882"/>
-						<datapoint pos="1" key="1883"/>
-						<datapoint pos="2" key="1884"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1885"/>
-					</targets>
-					<view ltx="1205" lty="-640" rbx="1319" rby="-567"/>
-				</component>
 				<component name="constant" library="core" uid="501" kind="2">
 					<properties/>
 					<targets>
@@ -1704,30 +1464,52 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="concat" library="core" uid="753" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1907"/>
-						<datapoint pos="1" key="1906"/>
-						<datapoint pos="2" key="1918"/>
-						<datapoint pos="3" key="1919"/>
-						<datapoint pos="4" key="1904"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1903"/>
-					</targets>
-					<view ltx="851" lty="-363" rbx="944" rby="-251"/>
-				</component>
-				<component name="constant" library="core" uid="446" kind="2">
+				<component name="constant" library="core" uid="449" kind="2">
 					<properties/>
 					<targets>
-						<datapoint pos="0" key="1245"/>
+						<datapoint pos="0" key="1236"/>
 					</targets>
-					<view ltx="19" lty="-423" rbx="172" rby="-405"/>
+					<view ltx="-229" lty="-237" rbx="-81" rby="-219"/>
 					<data>
-						<constant value="201508" datatype="string"/>
+						<constant value="\*.XML" datatype="string"/>
 						<wsdl/>
 					</data>
+				</component>
+				<component name="string-join" library="core" uid="744" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1882"/>
+						<datapoint pos="1" key="1883"/>
+						<datapoint pos="2" key="1884"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1885"/>
+					</targets>
+					<view ltx="1205" lty="-640" rbx="1319" rby="-567"/>
+				</component>
+				<component name="File" library="core" uid="734" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1862"/>
+						<datapoint pos="1" key="1863"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1864"/>
+						<datapoint/>
+					</targets>
+					<view ltx="1089" lty="-500" rbx="1192" rby="-444"/>
+				</component>
+				<component name="Booking" library="core" uid="358" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1012"/>
+						<datapoint pos="1" key="1013"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1014"/>
+						<datapoint/>
+					</targets>
+					<view ltx="477" lty="-184" rbx="580" rby="-128"/>
 				</component>
 				<component name="OTA_AirBookRQ" library="xml" uid="3" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" DynamicFilenames="1"/>
@@ -1848,31 +1630,239 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="RejectList" library="text" uid="726" kind="16">
-					<properties XSLTDefaultOutput="1" DynamicFilenames="1"/>
-					<view ltx="1513" lty="-545" rbx="1663" rby="-345"/>
+				<component name="concat" library="core" uid="753" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1907"/>
+						<datapoint pos="1" key="1906"/>
+						<datapoint pos="2" key="1918"/>
+						<datapoint pos="3" key="1919"/>
+						<datapoint pos="4" key="1904"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1903"/>
+					</targets>
+					<view ltx="858" lty="-356" rbx="951" rby="-244"/>
+				</component>
+				<component name="filter" library="core" uid="364" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1015"/>
+						<datapoint pos="1" key="1016"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1017"/>
+						<datapoint/>
+					</targets>
+					<view ltx="1529" lty="-258" rbx="1632" rby="-202"/>
+				</component>
+				<component name="logical-and" library="core" uid="550" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1427"/>
+						<datapoint pos="1" key="1428"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1429"/>
+					</targets>
+					<view ltx="966" lty="-167" rbx="1078" rby="-109"/>
+				</component>
+				<component name="not-equal" library="core" uid="362" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1018"/>
+						<datapoint pos="1" key="1019"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1020"/>
+					</targets>
+					<view ltx="424" lty="-84" rbx="529" rby="-28"/>
+				</component>
+				<component name="logical-and" library="core" uid="539" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1386"/>
+						<datapoint pos="1" key="1387"/>
+						<datapoint pos="2" key="1446"/>
+						<datapoint pos="3" key="1515"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1399"/>
+					</targets>
+					<view ltx="763" lty="975" rbx="875" rby="1069"/>
+				</component>
+				<component name="has_text" library="user" blackbox="0" uid="730" kind="19" visible="0">
+					<view ltx="638" lty="-468" rbx="863" rby="-451"/>
 					<data>
 						<root scrollposition="1">
 							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="input_string" inpkey="1908" componentid="375"/>
+						</root>
+						<root rootindex="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="string_is_not_empty" outkey="1859" componentid="376"/>
+						</root>
+					</data>
+				</component>
+				<component name="logical-or" library="core" uid="728" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1865"/>
+						<datapoint pos="1" key="1866"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1867"/>
+					</targets>
+					<view ltx="973" lty="-408" rbx="1077" rby="-350"/>
+				</component>
+				<component name="string-join" library="core" uid="748" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1909"/>
+						<datapoint pos="1" key="1910"/>
+						<datapoint pos="2" key="1911"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1912"/>
+					</targets>
+					<view ltx="1256" lty="-395" rbx="1370" rby="-322"/>
+				</component>
+				<component name="PNR-GMI" library="xml" uid="296" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" EnableMinMaxOccursOptimizations="0" DynamicFilenames="1"/>
+					<view ltx="-229" lty="-118" rbx="219" rby="2480"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" inpkey="1078" outkey="654" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="Booking" outkey="779" expanded="1">
+										<entry name="Header" expanded="1">
+											<entry name="BookingHeader" outkey="962" expanded="1">
+												<entry name="booking_id" outkey="942"/>
+												<entry name="record_locator" outkey="780"/>
+												<entry name="booking_source_rcd" outkey="1266"/>
+												<entry name="agency_code" outkey="1285"/>
+												<entry name="contact_email" outkey="840"/>
+												<entry name="phone_business" outkey="1101"/>
+												<entry name="received_from" outkey="1286"/>
+												<entry name="sender_locator_search" outkey="829"/>
+												<entry name="vendor_rcd" outkey="1868"/>
+												<entry name="iata_number" outkey="834"/>
+												<entry name="phone" outkey="1102"/>
+												<entry name="email" outkey="1087"/>
+												<entry name="segment_airline_rcd" outkey="880"/>
+											</entry>
+										</entry>
+										<entry name="Passengers" outkey="881">
+											<entry name="Passenger" outkey="882" expanded="1">
+												<entry name="passenger_id" outkey="883"/>
+												<entry name="passenger_type_rcd" outkey="838"/>
+												<entry name="lastname" outkey="884"/>
+												<entry name="firstname" outkey="885"/>
+												<entry name="date_of_birth" outkey="982"/>
+												<entry name="title_rcd" outkey="836"/>
+												<entry name="gender_type_rcd" outkey="983"/>
+											</entry>
+										</entry>
+										<entry name="Itinerary" expanded="1">
+											<entry name="FlightSegment" outkey="782" expanded="1">
+												<entry name="booking_segment_id" outkey="1453"/>
+												<entry name="flight_id" outkey="1580"/>
+												<entry name="airline_rcd" outkey="886"/>
+												<entry name="flight_number" outkey="887"/>
+												<entry name="booking_class_rcd" outkey="1293"/>
+												<entry name="departure_date" outkey="783"/>
+												<entry name="departure_time" outkey="794"/>
+												<entry name="arrival_time" outkey="818"/>
+												<entry name="segment_status_rcd" outkey="1029"/>
+												<entry name="origin_rcd" outkey="889"/>
+												<entry name="destination_rcd" outkey="890"/>
+												<entry name="flight_status_rcd" outkey="1430"/>
+												<entry name="segment_status_name" outkey="1454"/>
+											</entry>
+										</entry>
+										<entry name="Tickets" outkey="1413" expanded="1">
+											<entry name="Ticket" outkey="854" expanded="1">
+												<entry name="passenger_id" outkey="984"/>
+												<entry name="passenger_type_rcd" outkey="1581"/>
+												<entry name="flight_id" outkey="1582"/>
+												<entry name="flight_number" outkey="891"/>
+												<entry name="departure_date" outkey="892"/>
+												<entry name="seat_number" outkey="893"/>
+												<entry name="seat_row" outkey="894"/>
+												<entry name="ticket_number" outkey="1528"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="\\anne-mette-pc\c$\Andreas\Dropbox\GMI\OTA_AirBook\PNR-GMI.xsd" inputinstance="\\anne-mette-pc\c$\Andreas\Dropbox\GMI\FTPFiles\PNR by day flight date\20150312\PNR A188VI.XML" instanceroot="{}Booking"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="string-join" library="core" uid="745" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1888"/>
+						<datapoint pos="1" key="1891"/>
+						<datapoint pos="2" key="1890"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1889"/>
+					</targets>
+					<view ltx="1257" lty="-455" rbx="1371" rby="-382"/>
+				</component>
+				<component name="logical-not" library="core" uid="757" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1948"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1949"/>
+					</targets>
+					<view ltx="983" lty="-234" rbx="1092" rby="-195"/>
+				</component>
+				<component name="RejectList" library="text" uid="726" kind="16">
+					<properties XSLTDefaultOutput="1" DynamicFilenames="1"/>
+					<view ltx="1588" lty="-640" rbx="1780" rby="-320"/>
+					<data>
+						<root>
+							<header>
 								<namespaces/>
 							</header>
-							<entry name="FileInstance" inpkey="1914" expanded="1">
+							<entry name="FileInstance" inpkey="1950" expanded="1">
 								<entry name="document" expanded="1">
-									<entry name="Rows" inpkey="1869" expanded="1">
-										<entry name="RLOC" inpkey="1870"/>
-										<entry name="Vendor_rcd" inpkey="1915"/>
-										<entry name="flt_no" inpkey="1886"/>
-										<entry name="segment_status_rcd" inpkey="1892"/>
-										<entry name="flight_status_rcd" inpkey="1916"/>
-										<entry name="segment_status_name" inpkey="1897"/>
-										<entry name="Filename" inpkey="1871"/>
+									<entry name="Rows" inpkey="1951" expanded="1">
+										<entry name="RLOC" inpkey="1952"/>
+										<entry name="Vendor_rcd" inpkey="1953"/>
+										<entry name="flt_no" inpkey="1954"/>
+										<entry name="segment_status_rcd" inpkey="1955"/>
+										<entry name="flight_status_rcd" inpkey="1956"/>
+										<entry name="segment_status_name" inpkey="1957"/>
+										<entry name="Filename" inpkey="1958"/>
+										<entry name="A" inpkey="1959"/>
+										<entry name="B" inpkey="1960"/>
 									</entry>
 								</entry>
 							</entry>
 						</root>
 						<wsdl/>
 						<text type="csv" outputinstance="I:\MR\W1\GMI\30 test2-gmi\AirBook_RQ\rejectlist.csv" encoding="1000" byteorder="1" byteordermark="0">
-							<settings separator="," quote="&quot;" firstrownames="false" removeempty="true">
+							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
 								<names root="Text file" block="Rows">
 									<field0 name="RLOC" type="string"/>
 									<field1 name="Reason" type="string"/>
@@ -1884,9 +1874,35 @@
 									<field7 name="segment_status_name" type="string"/>
 									<field8 name="Filename" type="string"/>
 									<field9 name="Notes" type="string"/>
+									<field10 name="A" type="string"/>
+									<field11 name="B" type="string"/>
+									<field12 name="C" type="string"/>
+									<field13 name="D" type="string"/>
 								</names>
 							</settings>
 						</text>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="446" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="1245"/>
+					</targets>
+					<view ltx="19" lty="-423" rbx="172" rby="-405"/>
+					<data>
+						<constant value="201503" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="331" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="1079"/>
+					</targets>
+					<view ltx="-260" lty="-262" rbx="-24" rby="-244"/>
+					<data>
+						<constant value="C:\Andreas\Dropbox\GMI\FTPFiles\PNR changed\" datatype="string"/>
+						<wsdl/>
 					</data>
 				</component>
 			</children>
@@ -2026,7 +2042,7 @@
 						<edges>
 							<edge vertexkey="843" edgekey="845"/>
 							<edge vertexkey="1862" edgekey="1873"/>
-							<edge vertexkey="1871" edgekey="1874"/>
+							<edge vertexkey="1958" edgekey="1961"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="778">
@@ -2049,7 +2065,7 @@
 						<edges>
 							<edge vertexkey="1701" edgekey="1710"/>
 							<edge vertexkey="1655" edgekey="1711"/>
-							<edge vertexkey="1870" edgekey="1875"/>
+							<edge vertexkey="1952" edgekey="1962"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="782">
@@ -2568,7 +2584,7 @@
 					<vertex vertexkey="1429">
 						<edges>
 							<edge vertexkey="1016" edgekey="1436"/>
-							<edge vertexkey="1866" edgekey="1931"/>
+							<edge vertexkey="1948" edgekey="1963"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1430">
@@ -2748,11 +2764,12 @@
 					<vertex vertexkey="1859">
 						<edges>
 							<edge vertexkey="1865" edgekey="1877"/>
+							<edge vertexkey="1959" edgekey="1964"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1864">
 						<edges>
-							<edge vertexkey="1869" edgekey="1879"/>
+							<edge vertexkey="1951" edgekey="1965"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1867">
@@ -2763,12 +2780,12 @@
 					<vertex vertexkey="1868">
 						<edges>
 							<edge vertexkey="1908" edgekey="1934"/>
-							<edge vertexkey="1915" edgekey="1935"/>
+							<edge vertexkey="1953" edgekey="1966"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1885">
 						<edges>
-							<edge vertexkey="1886" edgekey="1936"/>
+							<edge vertexkey="1954" edgekey="1967"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1887">
@@ -2782,22 +2799,22 @@
 					</vertex>
 					<vertex vertexkey="1889">
 						<edges>
-							<edge vertexkey="1892" edgekey="1942"/>
+							<edge vertexkey="1955" edgekey="1968"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1896">
 						<edges>
-							<edge vertexkey="1897" edgekey="1943"/>
+							<edge vertexkey="1957" edgekey="1969"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1903">
 						<edges>
-							<edge vertexkey="1914" edgekey="1944"/>
+							<edge vertexkey="1950" edgekey="1970"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1912">
 						<edges>
-							<edge vertexkey="1916" edgekey="1945"/>
+							<edge vertexkey="1956" edgekey="1971"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1913">
@@ -2808,6 +2825,12 @@
 					<vertex vertexkey="1917">
 						<edges>
 							<edge vertexkey="1918" edgekey="1947"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1949">
+						<edges>
+							<edge vertexkey="1866" edgekey="1972"/>
+							<edge vertexkey="1960" edgekey="1973"/>
 						</edges>
 					</vertex>
 				</vertices>
