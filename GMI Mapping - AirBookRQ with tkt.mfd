@@ -139,17 +139,6 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="parse-date" library="core" uid="310" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="807"/>
-						<datapoint pos="1" key="808"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="809"/>
-					</targets>
-					<view ltx="731" lty="217" rbx="844" rby="273"/>
-				</component>
 				<component name="one_or_the_other" library="user" blackbox="0" uid="419" kind="19" visible="0">
 					<view ltx="1008" lty="1082" rbx="1116" rby="1116"/>
 					<data>
@@ -374,17 +363,6 @@
 					</targets>
 					<view ltx="637" lty="1206" rbx="750" rby="1262"/>
 				</component>
-				<component name="left" library="lang" uid="513" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1333"/>
-						<datapoint pos="1" key="1334"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1335"/>
-					</targets>
-					<view ltx="538" lty="1626" rbx="618" rby="1682"/>
-				</component>
 				<component name="greater" library="core" uid="537" kind="5">
 					<properties/>
 					<sources>
@@ -441,30 +419,6 @@
 					</targets>
 					<view ltx="747" lty="82" rbx="860" rby="138"/>
 				</component>
-				<component name="filter" library="core" uid="563" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1455"/>
-						<datapoint pos="1" key="1456"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1457"/>
-						<datapoint/>
-					</targets>
-					<view ltx="1372" lty="742" rbx="1475" rby="798"/>
-				</component>
-				<component name="Test" library="core" uid="570" kind="7">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1507"/>
-					</sources>
-					<view ltx="985" lty="107" rbx="1093" rby="146"/>
-					<data>
-						<output datatype="string"/>
-						<wsdl/>
-						<parameter usageKind="output" name="Test"/>
-					</data>
-				</component>
 				<component name="allowed_carrier_code" library="user" blackbox="0" uid="535" kind="19" visible="0">
 					<view ltx="359" lty="1047" rbx="554" rby="1064"/>
 					<data>
@@ -507,17 +461,6 @@
 						<datapoint pos="0" key="860"/>
 					</targets>
 					<view ltx="675" lty="1396" rbx="788" rby="1452"/>
-				</component>
-				<component name="constant" library="core" uid="109" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="314"/>
-					</targets>
-					<view ltx="1148" lty="451" rbx="1277" rby="469"/>
-					<data>
-						<constant value="30" datatype="string"/>
-						<wsdl/>
-					</data>
 				</component>
 				<component name="not-equal" library="core" uid="560" kind="5">
 					<properties/>
@@ -641,17 +584,6 @@
 						</root>
 					</data>
 				</component>
-				<component name="constant" library="core" uid="575" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="1527"/>
-					</targets>
-					<view ltx="1379" lty="2056" rbx="1530" rby="2074"/>
-					<data>
-						<constant value="eTicket" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
 				<component name="Tickets" library="core" uid="546" kind="3">
 					<properties/>
 					<sources>
@@ -663,27 +595,6 @@
 						<datapoint/>
 					</targets>
 					<view ltx="870" lty="1782" rbx="973" rby="1838"/>
-				</component>
-				<component name="uuid-to-ref8" library="ota" blackbox="0" uid="629" kind="19" visible="0">
-					<view ltx="338" lty="1702" rbx="439" rby="1719"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="uuid" inpkey="1583" componentid="589"/>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="result" outkey="1584" componentid="588"/>
-						</root>
-					</data>
 				</component>
 				<component name="uuid-to-ref8" library="ota" blackbox="0" uid="607" kind="19" visible="0">
 					<view ltx="382" lty="1542" rbx="483" rby="1559"/>
@@ -704,54 +615,6 @@
 							</header>
 							<entry name="result" outkey="1568" componentid="588"/>
 						</root>
-					</data>
-				</component>
-				<component name="Ticket" library="core" uid="536" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1383"/>
-						<datapoint pos="1" key="1384"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1385"/>
-						<datapoint/>
-					</targets>
-					<view ltx="1098" lty="1484" rbx="1201" rby="1540"/>
-				</component>
-				<component name="document" library="xml" uid="339" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1220" lty="1530" rbx="1520" rby="1821"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.altova.com/mapforce"/>
-									<namespace/>
-									<namespace uid="http://www.opentravel.org/OTA/2003/05"/>
-								</namespaces>
-							</header>
-							<entry name="compute-when" inpkey="975"/>
-							<entry name="document" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="SeatRequest" ns="2" inpkey="976" outkey="977" expanded="1">
-									<entry name="SeatNumber" ns="1" type="attribute" inpkey="978"/>
-									<entry name="DepartureDate" ns="1" type="attribute" inpkey="979"/>
-									<entry name="FlightNumber" ns="1" type="attribute" inpkey="980"/>
-									<entry name="TravelerRefNumberRPHList" ns="1" type="attribute" inpkey="1797"/>
-									<entry name="ArrivalAirport" ns="2" expanded="1"/>
-								</entry>
-							</entry>
-						</root>
-						<document schema="\\anne-mette-pc\c$\Andreas\Dropbox\W1\wip-gmi\PNR Migrations\ota\OTA_AirBookRQ.xsd"/>
-						<wsdl/>
-						<parameter usageKind="variable">
-							<root>
-								<entry name="OTA_AirBookRQ" ns="http://www.opentravel.org/OTA/2003/05"/>
-								<entry name="TravelerInfo" ns="http://www.opentravel.org/OTA/2003/05"/>
-								<entry name="SpecialReqDetails" ns="http://www.opentravel.org/OTA/2003/05"/>
-								<entry name="SeatRequests" ns="http://www.opentravel.org/OTA/2003/05"/>
-								<entry name="SeatRequest" ns="http://www.opentravel.org/OTA/2003/05"/>
-							</root>
-						</parameter>
 					</data>
 				</component>
 				<component name="greater" library="core" uid="325" kind="5">
@@ -789,30 +652,6 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="Ticket" library="core" uid="576" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1532"/>
-						<datapoint pos="1" key="1533"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1534"/>
-						<datapoint/>
-					</targets>
-					<view ltx="1400" lty="1854" rbx="1503" rby="1910"/>
-				</component>
-				<component name="title_rcd" library="core" uid="371" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1027"/>
-						<datapoint pos="1" key="1067"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1028"/>
-						<datapoint/>
-					</targets>
-					<view ltx="922" lty="786" rbx="1025" rby="842"/>
-				</component>
 				<component name="title_rcd" library="core" uid="381" kind="3">
 					<properties/>
 					<sources>
@@ -824,27 +663,6 @@
 						<datapoint/>
 					</targets>
 					<view ltx="1166" lty="649" rbx="1269" rby="705"/>
-				</component>
-				<component name="has_text" library="user" blackbox="0" uid="579" kind="19" visible="0">
-					<view ltx="1080" lty="1918" rbx="1305" rby="1935"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="input_string" inpkey="1540" componentid="375"/>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="string_is_not_empty" outkey="1541" componentid="376"/>
-						</root>
-					</data>
 				</component>
 				<component name="constant" library="core" uid="678" kind="2">
 					<properties/>
@@ -922,78 +740,6 @@
 						<constant value="Passenger" datatype="string"/>
 						<wsdl/>
 					</data>
-				</component>
-				<component name="FlightSegment" library="core" uid="440" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1237"/>
-						<datapoint pos="1" key="1238"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1239"/>
-						<datapoint/>
-					</targets>
-					<view ltx="985" lty="951" rbx="1112" rby="1007"/>
-				</component>
-				<component name="document" library="xml" uid="569" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1298" lty="818" rbx="1598" rby="1318"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.altova.com/mapforce"/>
-									<namespace/>
-									<namespace uid="http://www.opentravel.org/OTA/2003/05"/>
-								</namespaces>
-							</header>
-							<entry name="compute-when" inpkey="1472"/>
-							<entry name="document" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="FlightSegment" ns="2" inpkey="1473" outkey="1474" expanded="1">
-									<entry name="DepartureDateTime" ns="1" type="attribute" inpkey="1475"/>
-									<entry name="ArrivalDateTime" ns="1" type="attribute" inpkey="1476"/>
-									<entry name="RPH" ns="1" type="attribute" inpkey="1573"/>
-									<entry name="FlightNumber" ns="1" type="attribute" inpkey="1477"/>
-									<entry name="ResBookDesigCode" ns="1" type="attribute" inpkey="1480"/>
-									<entry name="NumberInParty" ns="1" type="attribute" inpkey="1481"/>
-									<entry name="Status" ns="1" type="attribute" inpkey="1482"/>
-									<entry name="DepartureAirport" ns="2" expanded="1">
-										<entry name="LocationCode" ns="1" type="attribute" inpkey="1483"/>
-									</entry>
-									<entry name="ArrivalAirport" ns="2" expanded="1">
-										<entry name="LocationCode" ns="1" type="attribute" inpkey="1485"/>
-									</entry>
-									<entry name="MarketingAirline" ns="2">
-										<entry name="Code" ns="1" type="attribute" inpkey="1486"/>
-									</entry>
-									<entry name="TPA_Extensions" ns="2" expanded="1"/>
-								</entry>
-							</entry>
-						</root>
-						<document schema="\\anne-mette-pc\c$\Andreas\Dropbox\W1\wip-gmi\PNR Migrations\ota\OTA_AirBookRQ.xsd"/>
-						<wsdl/>
-						<parameter usageKind="variable">
-							<root>
-								<entry name="OTA_AirBookRQ" ns="http://www.opentravel.org/OTA/2003/05"/>
-								<entry name="AirItinerary" ns="http://www.opentravel.org/OTA/2003/05"/>
-								<entry name="OriginDestinationOptions" ns="http://www.opentravel.org/OTA/2003/05"/>
-								<entry name="OriginDestinationOption" ns="http://www.opentravel.org/OTA/2003/05"/>
-								<entry name="FlightSegment" ns="http://www.opentravel.org/OTA/2003/05"/>
-							</root>
-						</parameter>
-					</data>
-				</component>
-				<component name="result" library="core" uid="700" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1847"/>
-						<datapoint pos="1" key="1848"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1849"/>
-						<datapoint/>
-					</targets>
-					<view ltx="985" lty="868" rbx="1088" rby="924"/>
 				</component>
 				<component name="has_text" library="user" blackbox="0" uid="380" kind="19" visible="0">
 					<view ltx="637" lty="866" rbx="862" rby="883"/>
@@ -1146,33 +892,6 @@
 					</targets>
 					<view ltx="1080" lty="2229" rbx="1211" rby="2319"/>
 				</component>
-				<component name="create_ssr_chld" library="user" blackbox="0" uid="656" kind="19" visible="0">
-					<view ltx="1166" lty="1933" rbx="1371" rby="2035"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="passId" inpkey="1799" componentid="657"/>
-							<entry name="passTypeCode" inpkey="1798" componentid="630"/>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="newPaxType" componentid="702"/>
-							<entry name="createSSR" componentid="231"/>
-							<entry name="ssr_type" componentid="653"/>
-							<entry name="TravelNumRPH" componentid="660"/>
-							<entry name="hasCHD" componentid="666"/>
-							<entry name="NotHasADT" componentid="668"/>
-						</root>
-					</data>
-				</component>
 				<component name="constant" library="core" uid="363" kind="2">
 					<properties/>
 					<targets>
@@ -1290,18 +1009,6 @@
 						<variable datatype="integer"/>
 						<parameter usageKind="variable"/>
 					</data>
-				</component>
-				<component name="BookingHeader" library="core" uid="507" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1298"/>
-						<datapoint pos="1" key="1311"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1312"/>
-						<datapoint/>
-					</targets>
-					<view ltx="1239" lty="1304" rbx="1372" rby="1360"/>
 				</component>
 				<component name="count" library="core" uid="320" kind="5">
 					<properties/>
@@ -1442,17 +1149,6 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="constant" library="core" uid="501" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="1297"/>
-					</targets>
-					<view ltx="246" lty="-364" rbx="471" rby="-346"/>
-					<data>
-						<constant value="I:\MR\W1\GMI\30 test2-gmi\AirBook_RQ\" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
 				<component name="constant" library="core" uid="752" kind="2">
 					<properties/>
 					<targets>
@@ -1461,17 +1157,6 @@
 					<view ltx="417" lty="-524" rbx="586" rby="-506"/>
 					<data>
 						<constant value="reject_list_" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="449" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="1236"/>
-					</targets>
-					<view ltx="-229" lty="-237" rbx="-81" rby="-219"/>
-					<data>
-						<constant value="\*.XML" datatype="string"/>
 						<wsdl/>
 					</data>
 				</component>
@@ -1511,11 +1196,417 @@
 					</targets>
 					<view ltx="477" lty="-184" rbx="580" rby="-128"/>
 				</component>
-				<component name="OTA_AirBookRQ" library="xml" uid="3" kind="14">
-					<properties XSLTTargetEncoding="UTF-8" DynamicFilenames="1"/>
-					<view ltx="1742" lty="-249" rbx="2738" rby="2435"/>
+				<component name="concat" library="core" uid="753" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1907"/>
+						<datapoint pos="1" key="1906"/>
+						<datapoint pos="2" key="1918"/>
+						<datapoint pos="3" key="1919"/>
+						<datapoint pos="4" key="1904"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1903"/>
+					</targets>
+					<view ltx="858" lty="-356" rbx="951" rby="-244"/>
+				</component>
+				<component name="filter" library="core" uid="364" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1015"/>
+						<datapoint pos="1" key="1016"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1017"/>
+						<datapoint/>
+					</targets>
+					<view ltx="1529" lty="-258" rbx="1632" rby="-202"/>
+				</component>
+				<component name="logical-and" library="core" uid="550" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1427"/>
+						<datapoint pos="1" key="1428"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1429"/>
+					</targets>
+					<view ltx="966" lty="-167" rbx="1078" rby="-109"/>
+				</component>
+				<component name="not-equal" library="core" uid="362" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1018"/>
+						<datapoint pos="1" key="1019"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1020"/>
+					</targets>
+					<view ltx="424" lty="-84" rbx="529" rby="-28"/>
+				</component>
+				<component name="has_text" library="user" blackbox="0" uid="730" kind="19" visible="0">
+					<view ltx="638" lty="-468" rbx="863" rby="-451"/>
 					<data>
 						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="input_string" inpkey="1908" componentid="375"/>
+						</root>
+						<root rootindex="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="string_is_not_empty" outkey="1859" componentid="376"/>
+						</root>
+					</data>
+				</component>
+				<component name="logical-or" library="core" uid="728" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1865"/>
+						<datapoint pos="1" key="1866"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1867"/>
+					</targets>
+					<view ltx="973" lty="-408" rbx="1077" rby="-350"/>
+				</component>
+				<component name="string-join" library="core" uid="748" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1909"/>
+						<datapoint pos="1" key="1910"/>
+						<datapoint pos="2" key="1911"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1912"/>
+					</targets>
+					<view ltx="1256" lty="-395" rbx="1370" rby="-322"/>
+				</component>
+				<component name="string-join" library="core" uid="745" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1888"/>
+						<datapoint pos="1" key="1891"/>
+						<datapoint pos="2" key="1890"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1889"/>
+					</targets>
+					<view ltx="1257" lty="-455" rbx="1371" rby="-382"/>
+				</component>
+				<component name="logical-not" library="core" uid="757" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1948"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1949"/>
+					</targets>
+					<view ltx="983" lty="-234" rbx="1092" rby="-195"/>
+				</component>
+				<component name="RejectList" library="text" uid="726" kind="16">
+					<properties DynamicFilenames="1"/>
+					<view ltx="1588" lty="-640" rbx="1780" rby="-320"/>
+					<data>
+						<root>
+							<header>
+								<namespaces/>
+							</header>
+							<entry name="FileInstance" inpkey="1950" expanded="1">
+								<entry name="document" expanded="1">
+									<entry name="Rows" inpkey="1951" expanded="1">
+										<entry name="RLOC" inpkey="1952"/>
+										<entry name="Vendor_rcd" inpkey="1953"/>
+										<entry name="flt_no" inpkey="1954"/>
+										<entry name="segment_status_rcd" inpkey="1955"/>
+										<entry name="flight_status_rcd" inpkey="1956"/>
+										<entry name="segment_status_name" inpkey="1957"/>
+										<entry name="Filename" inpkey="1958"/>
+										<entry name="A" inpkey="1959"/>
+										<entry name="B" inpkey="1960"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<wsdl/>
+						<text type="csv" outputinstance="I:\MR\W1\GMI\30 test2-gmi\AirBook_RQ\rejectlist.csv" encoding="1000" byteorder="1" byteordermark="0">
+							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
+								<names root="Text file" block="Rows">
+									<field0 name="RLOC" type="string"/>
+									<field1 name="Reason" type="string"/>
+									<field2 name="Vendor_rcd" type="string"/>
+									<field3 name="flt_no" type="string"/>
+									<field4 name="flt_date" type="string"/>
+									<field5 name="segment_status_rcd" type="string"/>
+									<field6 name="flight_status_rcd" type="string"/>
+									<field7 name="segment_status_name" type="string"/>
+									<field8 name="Filename" type="string"/>
+									<field9 name="Notes" type="string"/>
+									<field10 name="A" type="string"/>
+									<field11 name="B" type="string"/>
+									<field12 name="C" type="string"/>
+									<field13 name="D" type="string"/>
+								</names>
+							</settings>
+						</text>
+					</data>
+				</component>
+				<component name="create_ssr_chld" library="user" blackbox="0" uid="656" kind="19" visible="0">
+					<view ltx="1098" lty="2031" rbx="1303" rby="2133"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="passId" inpkey="1799" componentid="657"/>
+							<entry name="passTypeCode" inpkey="1798" componentid="630"/>
+						</root>
+						<root rootindex="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="newPaxType" componentid="702"/>
+							<entry name="createSSR" componentid="231"/>
+							<entry name="ssr_type" componentid="653"/>
+							<entry name="TravelNumRPH" componentid="660"/>
+							<entry name="hasCHD" componentid="666"/>
+							<entry name="NotHasADT" componentid="668"/>
+						</root>
+					</data>
+				</component>
+				<component name="Test" library="core" uid="570" kind="7">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1507"/>
+					</sources>
+					<view ltx="985" lty="107" rbx="1093" rby="146"/>
+					<data>
+						<output datatype="string"/>
+						<wsdl/>
+						<parameter usageKind="output" name="Test"/>
+					</data>
+				</component>
+				<component name="filter" library="core" uid="563" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1455"/>
+						<datapoint pos="1" key="1456"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1457"/>
+						<datapoint/>
+					</targets>
+					<view ltx="1372" lty="742" rbx="1475" rby="798"/>
+				</component>
+				<component name="has_text" library="user" blackbox="0" uid="579" kind="19" visible="0">
+					<view ltx="963" lty="1934" rbx="1188" rby="1951"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="input_string" inpkey="1540" componentid="375"/>
+						</root>
+						<root rootindex="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="string_is_not_empty" outkey="1541" componentid="376"/>
+						</root>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="575" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="1527"/>
+					</targets>
+					<view ltx="1379" lty="2056" rbx="1530" rby="2074"/>
+					<data>
+						<constant value="eTicket" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="left" library="lang" uid="513" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1333"/>
+						<datapoint pos="1" key="1334"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1335"/>
+					</targets>
+					<view ltx="538" lty="1626" rbx="618" rby="1682"/>
+				</component>
+				<component name="result" library="core" uid="700" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1847"/>
+						<datapoint pos="1" key="1848"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1849"/>
+						<datapoint/>
+					</targets>
+					<view ltx="985" lty="868" rbx="1088" rby="924"/>
+				</component>
+				<component name="constant" library="core" uid="449" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="1236"/>
+					</targets>
+					<view ltx="-229" lty="-237" rbx="-81" rby="-219"/>
+					<data>
+						<constant value="\*.XML" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="title_rcd" library="core" uid="371" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1027"/>
+						<datapoint pos="1" key="1067"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1028"/>
+						<datapoint/>
+					</targets>
+					<view ltx="922" lty="786" rbx="1025" rby="842"/>
+				</component>
+				<component name="document" library="xml" uid="339" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1318" lty="1458" rbx="1619" rby="1766"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.altova.com/mapforce"/>
+									<namespace/>
+									<namespace uid="http://www.opentravel.org/OTA/2003/05"/>
+								</namespaces>
+							</header>
+							<entry name="compute-when" inpkey="975"/>
+							<entry name="document" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="SeatRequest" ns="2" inpkey="976" outkey="977" expanded="1">
+									<entry name="SeatNumber" ns="1" type="attribute" inpkey="978"/>
+									<entry name="DepartureDate" ns="1" type="attribute" inpkey="979"/>
+									<entry name="FlightNumber" ns="1" type="attribute" inpkey="980"/>
+									<entry name="TravelerRefNumberRPHList" ns="1" type="attribute" inpkey="1797"/>
+									<entry name="ArrivalAirport" ns="2" expanded="1"/>
+									<entry name="Airline" ns="2" expanded="1"/>
+								</entry>
+							</entry>
+						</root>
+						<document schema="\\anne-mette-pc\c$\Andreas\Dropbox\W1\wip-gmi\PNR Migrations\ota\OTA_AirBookRQ.xsd"/>
+						<wsdl/>
+						<parameter usageKind="variable">
+							<root>
+								<entry name="OTA_AirBookRQ" ns="http://www.opentravel.org/OTA/2003/05"/>
+								<entry name="TravelerInfo" ns="http://www.opentravel.org/OTA/2003/05"/>
+								<entry name="SpecialReqDetails" ns="http://www.opentravel.org/OTA/2003/05"/>
+								<entry name="SeatRequests" ns="http://www.opentravel.org/OTA/2003/05"/>
+								<entry name="SeatRequest" ns="http://www.opentravel.org/OTA/2003/05"/>
+							</root>
+						</parameter>
+					</data>
+				</component>
+				<component name="Ticket" library="core" uid="536" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1383"/>
+						<datapoint pos="1" key="1384"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1385"/>
+						<datapoint/>
+					</targets>
+					<view ltx="1081" lty="1458" rbx="1184" rby="1514"/>
+				</component>
+				<component name="constant" library="core" uid="767" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="1980"/>
+					</targets>
+					<view ltx="1066" lty="1278" rbx="1187" rby="1296"/>
+					<data>
+						<constant value="-" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="uuid-to-ref8" library="ota" blackbox="0" uid="629" kind="19" visible="0">
+					<view ltx="338" lty="1702" rbx="439" rby="1719"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="uuid" inpkey="1583" componentid="589"/>
+						</root>
+						<root rootindex="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="result" outkey="1584" componentid="588"/>
+						</root>
+					</data>
+				</component>
+				<component name="logical-and" library="core" uid="759" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1985"/>
+						<datapoint pos="1" key="1986"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1987"/>
+					</targets>
+					<view ltx="1260" lty="1888" rbx="1372" rby="1946"/>
+				</component>
+				<component name="BookingHeader" library="core" uid="507" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1298"/>
+						<datapoint pos="1" key="1311"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1312"/>
+						<datapoint/>
+					</targets>
+					<view ltx="1119" lty="1171" rbx="1252" rby="1227"/>
+				</component>
+				<component name="Ticket" library="core" uid="576" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1532"/>
+						<datapoint pos="1" key="1533"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1534"/>
+						<datapoint/>
+					</targets>
+					<view ltx="1451" lty="1854" rbx="1554" rby="1910"/>
+				</component>
+				<component name="OTA_AirBookRQ" library="xml" uid="3" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1" DynamicFilenames="1"/>
+					<view ltx="1742" lty="-249" rbx="2738" rby="2435"/>
+					<data>
+						<root scrollposition="896">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -1630,116 +1721,22 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="concat" library="core" uid="753" kind="5" growable="1" growablebasename="value">
+				<component name="contains" library="core" uid="769" kind="5">
 					<properties/>
 					<sources>
-						<datapoint pos="0" key="1907"/>
-						<datapoint pos="1" key="1906"/>
-						<datapoint pos="2" key="1918"/>
-						<datapoint pos="3" key="1919"/>
-						<datapoint pos="4" key="1904"/>
+						<datapoint pos="0" key="1978"/>
+						<datapoint pos="1" key="1988"/>
 					</sources>
 					<targets>
-						<datapoint pos="0" key="1903"/>
+						<datapoint pos="0" key="1989"/>
 					</targets>
-					<view ltx="858" lty="-356" rbx="951" rby="-244"/>
-				</component>
-				<component name="filter" library="core" uid="364" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1015"/>
-						<datapoint pos="1" key="1016"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1017"/>
-						<datapoint/>
-					</targets>
-					<view ltx="1529" lty="-258" rbx="1632" rby="-202"/>
-				</component>
-				<component name="logical-and" library="core" uid="550" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1427"/>
-						<datapoint pos="1" key="1428"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1429"/>
-					</targets>
-					<view ltx="966" lty="-167" rbx="1078" rby="-109"/>
-				</component>
-				<component name="not-equal" library="core" uid="362" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1018"/>
-						<datapoint pos="1" key="1019"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1020"/>
-					</targets>
-					<view ltx="424" lty="-84" rbx="529" rby="-28"/>
-				</component>
-				<component name="logical-and" library="core" uid="539" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1386"/>
-						<datapoint pos="1" key="1387"/>
-						<datapoint pos="2" key="1446"/>
-						<datapoint pos="3" key="1515"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1399"/>
-					</targets>
-					<view ltx="763" lty="975" rbx="875" rby="1069"/>
-				</component>
-				<component name="has_text" library="user" blackbox="0" uid="730" kind="19" visible="0">
-					<view ltx="638" lty="-468" rbx="863" rby="-451"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="input_string" inpkey="1908" componentid="375"/>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="string_is_not_empty" outkey="1859" componentid="376"/>
-						</root>
-					</data>
-				</component>
-				<component name="logical-or" library="core" uid="728" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1865"/>
-						<datapoint pos="1" key="1866"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1867"/>
-					</targets>
-					<view ltx="973" lty="-408" rbx="1077" rby="-350"/>
-				</component>
-				<component name="string-join" library="core" uid="748" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1909"/>
-						<datapoint pos="1" key="1910"/>
-						<datapoint pos="2" key="1911"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1912"/>
-					</targets>
-					<view ltx="1256" lty="-395" rbx="1370" rby="-322"/>
+					<view ltx="1191" lty="1342" rbx="1292" rby="1398"/>
 				</component>
 				<component name="PNR-GMI" library="xml" uid="296" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" EnableMinMaxOccursOptimizations="0" DynamicFilenames="1"/>
 					<view ltx="-229" lty="-118" rbx="219" rby="2480"/>
 					<data>
-						<root scrollposition="1">
+						<root scrollposition="1249">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -1814,73 +1811,145 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="string-join" library="core" uid="745" kind="5">
+				<component name="FlightSegment" library="core" uid="771" kind="3">
 					<properties/>
 					<sources>
-						<datapoint pos="0" key="1888"/>
-						<datapoint pos="1" key="1891"/>
-						<datapoint pos="2" key="1890"/>
+						<datapoint pos="0" key="1990"/>
+						<datapoint pos="1" key="1991"/>
 					</sources>
 					<targets>
-						<datapoint pos="0" key="1889"/>
+						<datapoint/>
+						<datapoint/>
 					</targets>
-					<view ltx="1257" lty="-455" rbx="1371" rby="-382"/>
+					<view ltx="1099" lty="774" rbx="1226" rby="830"/>
 				</component>
-				<component name="logical-not" library="core" uid="757" kind="5">
+				<component name="parse-date" library="core" uid="310" kind="5">
 					<properties/>
 					<sources>
-						<datapoint pos="0" key="1948"/>
+						<datapoint pos="0" key="807"/>
+						<datapoint pos="1" key="808"/>
 					</sources>
 					<targets>
-						<datapoint pos="0" key="1949"/>
+						<datapoint pos="0" key="809"/>
 					</targets>
-					<view ltx="983" lty="-234" rbx="1092" rby="-195"/>
+					<view ltx="731" lty="217" rbx="844" rby="273"/>
 				</component>
-				<component name="RejectList" library="text" uid="726" kind="16">
-					<properties XSLTDefaultOutput="1" DynamicFilenames="1"/>
-					<view ltx="1588" lty="-640" rbx="1780" rby="-320"/>
+				<component name="constant" library="core" uid="109" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="314"/>
+					</targets>
+					<view ltx="1148" lty="451" rbx="1277" rby="469"/>
 					<data>
-						<root>
+						<constant value="30" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="FlightSegment" library="core" uid="440" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1237"/>
+						<datapoint pos="1" key="1238"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1239"/>
+						<datapoint/>
+					</targets>
+					<view ltx="985" lty="951" rbx="1112" rby="1007"/>
+				</component>
+				<component name="logical-and" library="core" uid="539" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1386"/>
+						<datapoint pos="1" key="1387"/>
+						<datapoint pos="2" key="1446"/>
+						<datapoint pos="3" key="1515"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1399"/>
+					</targets>
+					<view ltx="747" lty="967" rbx="859" rby="1061"/>
+				</component>
+				<component name="document" library="xml" uid="569" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1379" lty="803" rbx="1679" rby="1303"/>
+					<data>
+						<root scrollposition="1">
 							<header>
-								<namespaces/>
+								<namespaces>
+									<namespace uid="http://www.altova.com/mapforce"/>
+									<namespace/>
+									<namespace uid="http://www.opentravel.org/OTA/2003/05"/>
+								</namespaces>
 							</header>
-							<entry name="FileInstance" inpkey="1950" expanded="1">
-								<entry name="document" expanded="1">
-									<entry name="Rows" inpkey="1951" expanded="1">
-										<entry name="RLOC" inpkey="1952"/>
-										<entry name="Vendor_rcd" inpkey="1953"/>
-										<entry name="flt_no" inpkey="1954"/>
-										<entry name="segment_status_rcd" inpkey="1955"/>
-										<entry name="flight_status_rcd" inpkey="1956"/>
-										<entry name="segment_status_name" inpkey="1957"/>
-										<entry name="Filename" inpkey="1958"/>
-										<entry name="A" inpkey="1959"/>
-										<entry name="B" inpkey="1960"/>
+							<entry name="compute-when" inpkey="1472"/>
+							<entry name="document" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="FlightSegment" ns="2" inpkey="1473" outkey="1474" expanded="1">
+									<entry name="DepartureDateTime" ns="1" type="attribute" inpkey="1475"/>
+									<entry name="ArrivalDateTime" ns="1" type="attribute" inpkey="1476"/>
+									<entry name="RPH" ns="1" type="attribute" inpkey="1573"/>
+									<entry name="FlightNumber" ns="1" type="attribute" inpkey="1477"/>
+									<entry name="ResBookDesigCode" ns="1" type="attribute" inpkey="1480"/>
+									<entry name="NumberInParty" ns="1" type="attribute" inpkey="1481"/>
+									<entry name="Status" ns="1" type="attribute" inpkey="1482"/>
+									<entry name="DepartureAirport" ns="2" expanded="1">
+										<entry name="LocationCode" ns="1" type="attribute" inpkey="1483"/>
 									</entry>
+									<entry name="ArrivalAirport" ns="2" expanded="1">
+										<entry name="LocationCode" ns="1" type="attribute" inpkey="1485"/>
+									</entry>
+									<entry name="MarketingAirline" ns="2">
+										<entry name="Code" ns="1" type="attribute" inpkey="1486"/>
+									</entry>
+									<entry name="TPA_Extensions" ns="2" expanded="1"/>
 								</entry>
 							</entry>
 						</root>
+						<document schema="\\anne-mette-pc\c$\Andreas\Dropbox\W1\wip-gmi\PNR Migrations\ota\OTA_AirBookRQ.xsd"/>
 						<wsdl/>
-						<text type="csv" outputinstance="I:\MR\W1\GMI\30 test2-gmi\AirBook_RQ\rejectlist.csv" encoding="1000" byteorder="1" byteordermark="0">
-							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
-								<names root="Text file" block="Rows">
-									<field0 name="RLOC" type="string"/>
-									<field1 name="Reason" type="string"/>
-									<field2 name="Vendor_rcd" type="string"/>
-									<field3 name="flt_no" type="string"/>
-									<field4 name="flt_date" type="string"/>
-									<field5 name="segment_status_rcd" type="string"/>
-									<field6 name="flight_status_rcd" type="string"/>
-									<field7 name="segment_status_name" type="string"/>
-									<field8 name="Filename" type="string"/>
-									<field9 name="Notes" type="string"/>
-									<field10 name="A" type="string"/>
-									<field11 name="B" type="string"/>
-									<field12 name="C" type="string"/>
-									<field13 name="D" type="string"/>
-								</names>
-							</settings>
-						</text>
+						<parameter usageKind="variable">
+							<root>
+								<entry name="OTA_AirBookRQ" ns="http://www.opentravel.org/OTA/2003/05"/>
+								<entry name="AirItinerary" ns="http://www.opentravel.org/OTA/2003/05"/>
+								<entry name="OriginDestinationOptions" ns="http://www.opentravel.org/OTA/2003/05"/>
+								<entry name="OriginDestinationOption" ns="http://www.opentravel.org/OTA/2003/05"/>
+								<entry name="FlightSegment" ns="http://www.opentravel.org/OTA/2003/05"/>
+							</root>
+						</parameter>
+					</data>
+				</component>
+				<component name="string-join" library="core" uid="766" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1974"/>
+						<datapoint pos="1" key="1975"/>
+						<datapoint pos="2" key="1976"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1977"/>
+					</targets>
+					<view ltx="1221" lty="841" rbx="1335" rby="914"/>
+				</component>
+				<component name="constant" library="core" uid="331" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="1079"/>
+					</targets>
+					<view ltx="-260" lty="-262" rbx="-39" rby="-244"/>
+					<data>
+						<constant value="I:\GMI\FTPFiles\PNR by day flight date\M" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="501" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="1297"/>
+					</targets>
+					<view ltx="246" lty="-364" rbx="475" rby="-346"/>
+					<data>
+						<constant value="A:\W1\GMI\30 test2-gmi\AirBook_RQ\" datatype="string"/>
+						<wsdl/>
 					</data>
 				</component>
 				<component name="constant" library="core" uid="446" kind="2">
@@ -1890,18 +1959,7 @@
 					</targets>
 					<view ltx="19" lty="-423" rbx="172" rby="-405"/>
 					<data>
-						<constant value="201503" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="331" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="1079"/>
-					</targets>
-					<view ltx="-260" lty="-262" rbx="-24" rby="-244"/>
-					<data>
-						<constant value="C:\Andreas\Dropbox\GMI\FTPFiles\PNR changed\" datatype="string"/>
+						<constant value="201504" datatype="string"/>
 						<wsdl/>
 					</data>
 				</component>
@@ -2071,6 +2129,7 @@
 					<vertex vertexkey="782">
 						<edges>
 							<edge vertexkey="1237" edgekey="1251"/>
+							<edge vertexkey="1990" edgekey="1992"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="783">
@@ -2561,6 +2620,7 @@
 							<edge vertexkey="1428" edgekey="1435"/>
 							<edge vertexkey="1456" edgekey="1461"/>
 							<edge vertexkey="1507" edgekey="1508"/>
+							<edge vertexkey="1991" edgekey="1993"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1409">
@@ -2646,6 +2706,7 @@
 					<vertex vertexkey="1474">
 						<edges>
 							<edge vertexkey="1663" edgekey="1706"/>
+							<edge vertexkey="1974" edgekey="1994"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1527">
@@ -2661,12 +2722,12 @@
 					</vertex>
 					<vertex vertexkey="1534">
 						<edges>
-							<edge vertexkey="1694" edgekey="1741"/>
+							<edge vertexkey="1694" edgekey="1995"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1541">
 						<edges>
-							<edge vertexkey="1533" edgekey="1543"/>
+							<edge vertexkey="1986" edgekey="1996"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1557">
@@ -2714,6 +2775,7 @@
 					<vertex vertexkey="1584">
 						<edges>
 							<edge vertexkey="1696" edgekey="1746"/>
+							<edge vertexkey="1988" edgekey="1997"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1664">
@@ -2759,6 +2821,7 @@
 					<vertex vertexkey="1849">
 						<edges>
 							<edge vertexkey="1573" edgekey="1858"/>
+							<edge vertexkey="1975" edgekey="1998"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1859">
@@ -2831,6 +2894,26 @@
 						<edges>
 							<edge vertexkey="1866" edgekey="1972"/>
 							<edge vertexkey="1960" edgekey="1973"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1977">
+						<edges>
+							<edge vertexkey="1978" edgekey="1999"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1980">
+						<edges>
+							<edge vertexkey="1976" edgekey="2000"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1987">
+						<edges>
+							<edge vertexkey="1533" edgekey="2001"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1989">
+						<edges>
+							<edge vertexkey="1985" edgekey="2002"/>
 						</edges>
 					</vertex>
 				</vertices>
