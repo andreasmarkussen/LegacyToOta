@@ -1602,125 +1602,6 @@
 					</targets>
 					<view ltx="1451" lty="1854" rbx="1554" rby="1910"/>
 				</component>
-				<component name="OTA_AirBookRQ" library="xml" uid="3" kind="14">
-					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1" DynamicFilenames="1"/>
-					<view ltx="1742" lty="-249" rbx="2738" rby="2435"/>
-					<data>
-						<root scrollposition="896">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.opentravel.org/OTA/2003/05"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="2" inpkey="1653" expanded="1">
-								<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="OTA_AirBookRQ" ns="1" inpkey="1654" expanded="1">
-										<entry name="EchoToken" type="attribute" inpkey="1655"/>
-										<entry name="Version" type="attribute" inpkey="1656"/>
-										<entry name="POS" ns="1" expanded="1">
-											<entry name="Source" ns="1" inpkey="1657" expanded="1">
-												<entry name="ISOCurrency" type="attribute" inpkey="1658"/>
-												<entry name="TerminalID" type="attribute" inpkey="1659"/>
-												<entry name="RequestorID" ns="1" expanded="1">
-													<entry name="CompanyName" ns="1" expanded="1"/>
-												</entry>
-												<entry name="Position" ns="1" expanded="1"/>
-												<entry name="BookingChannel" ns="1" expanded="1">
-													<entry name="Type" type="attribute" inpkey="1660"/>
-													<entry name="CompanyName" ns="1" expanded="1">
-														<entry name="Code" type="attribute" inpkey="1661"/>
-														<entry name="Department" type="attribute" inpkey="1662"/>
-													</entry>
-												</entry>
-											</entry>
-										</entry>
-										<entry name="AirItinerary" ns="1" expanded="1">
-											<entry name="OriginDestinationOptions" ns="1" expanded="1">
-												<entry name="OriginDestinationOption" ns="1" expanded="1">
-													<entry name="FlightSegment" ns="1" inpkey="1663" outkey="1664" expanded="1">
-														<entry name="DepartureAirport" ns="1" expanded="1"/>
-														<entry name="ArrivalAirport" ns="1" expanded="1"/>
-														<entry name="MarketingAirline" ns="1" expanded="1"/>
-														<entry name="TPA_Extensions" ns="1" expanded="1"/>
-													</entry>
-												</entry>
-											</entry>
-										</entry>
-										<entry name="PriceInfo" ns="1">
-											<entry name="ItinTotalFare" ns="1" expanded="1"/>
-										</entry>
-										<entry name="TravelerInfo" ns="1" expanded="1">
-											<entry name="AirTraveler" ns="1" inpkey="1665" expanded="1">
-												<entry name="Gender" type="attribute" inpkey="1666"/>
-												<entry name="BirthDate" type="attribute" inpkey="1667"/>
-												<entry name="PassengerTypeCode" type="attribute" inpkey="1668"/>
-												<entry name="ProfileRef" ns="1" expanded="1">
-													<entry name="UniqueID" ns="1" expanded="1"/>
-												</entry>
-												<entry name="PersonName" ns="1" inpkey="1669" expanded="1">
-													<entry name="NamePrefix" ns="1" inpkey="1670"/>
-													<entry name="GivenName" ns="1" inpkey="1671"/>
-													<entry name="Surname" ns="1" inpkey="1672"/>
-													<entry name="NameTitle" ns="1" inpkey="1673"/>
-												</entry>
-												<entry name="Telephone" ns="1" inpkey="1674">
-													<entry name="PhoneNumber" type="attribute" inpkey="1675"/>
-													<entry name="Remark" type="attribute" inpkey="1676"/>
-												</entry>
-												<entry name="Email" ns="1" inpkey="1677">
-													<entry name="Remark" type="attribute" inpkey="1678"/>
-												</entry>
-												<entry name="TravelerRefNumber" ns="1" expanded="1">
-													<entry name="RPH" type="attribute" inpkey="1679"/>
-												</entry>
-												<entry name="FlightSegmentRPHs" ns="1" expanded="1"/>
-											</entry>
-											<entry name="SpecialReqDetails" ns="1" inpkey="1680" expanded="1">
-												<entry name="SeatRequests" ns="1" inpkey="1681" expanded="1">
-													<entry name="SeatRequest" ns="1" inpkey="1682" expanded="1"/>
-												</entry>
-												<entry name="SpecialServiceRequests" ns="1" expanded="1">
-													<entry name="SpecialServiceRequest" ns="1" expanded="1">
-														<entry name="Airline" ns="1" expanded="1"/>
-													</entry>
-												</entry>
-												<entry name="SpecialRemarks" ns="1" inpkey="1690" expanded="1">
-													<entry name="SpecialRemark" ns="1" inpkey="1691" expanded="1">
-														<entry name="RemarkType" type="attribute" inpkey="1692"/>
-														<entry name="Text" ns="1" inpkey="1693"/>
-													</entry>
-												</entry>
-											</entry>
-										</entry>
-										<entry name="Ticketing" ns="1" inpkey="1694" expanded="1">
-											<entry name="TicketType" type="attribute" inpkey="1695"/>
-											<entry name="FlightSegmentRefNumber" type="attribute" inpkey="1696"/>
-											<entry name="TravelerRefNumber" type="attribute" inpkey="1697"/>
-											<entry name="TicketDocumentNbr" type="attribute" inpkey="1698"/>
-											<entry name="PassengerTypeCode" type="attribute" inpkey="1699"/>
-											<entry name="TicketAdvisory" ns="1" expanded="1"/>
-											<entry name="TicketingVendor" ns="1" expanded="1"/>
-											<entry name="PricingSystem" ns="1" expanded="1"/>
-											<entry name="TotalFare" ns="1" expanded="1"/>
-										</entry>
-										<entry name="BookingReferenceID" ns="1" expanded="1">
-											<entry name="Type" type="attribute" inpkey="1700"/>
-											<entry name="ID" type="attribute" inpkey="1701"/>
-											<entry name="CompanyName" ns="1" expanded="1">
-												<entry name="Code" type="attribute" inpkey="1702"/>
-											</entry>
-										</entry>
-										<entry name="TPA_Extensions" ns="1" expanded="1"/>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="\\anne-mette-pc\c$\Andreas\Dropbox\W1\wip-gmi\PNR Migrations\ota\OTA_AirBookRQ.xsd" inputinstance="\\anne-mette-pc\c$\Andreas\Dropbox\W1\wip-gmi\PNR Migrations\ota\OTA_AirBookRQ_sample_long.xml" outputinstance="\\anne-mette-pc\c$\Andreas\Dropbox\W1\wip-gmi\PNR Migrations\ota\OTA_AirBookRQ_sample_long.xml" instanceroot="{http://www.opentravel.org/OTA/2003/05}OTA_AirBookRQ" userdefinedschemalocation="C:/Andreas/Dropbox/W1/wip-gmi/PNR Migrations/ota/OTA_AirBookRQ.xsd"/>
-						<wsdl/>
-					</data>
-				</component>
 				<component name="contains" library="core" uid="769" kind="5">
 					<properties/>
 					<sources>
@@ -1952,6 +1833,125 @@
 						<wsdl/>
 					</data>
 				</component>
+				<component name="OTA_AirBookRQ" library="xml" uid="3" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1" DynamicFilenames="1"/>
+					<view ltx="1742" lty="-249" rbx="2738" rby="2435"/>
+					<data>
+						<root scrollposition="896">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.opentravel.org/OTA/2003/05"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="2" inpkey="1653" expanded="1">
+								<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="OTA_AirBookRQ" ns="1" inpkey="1654" expanded="1">
+										<entry name="EchoToken" type="attribute" inpkey="1655"/>
+										<entry name="Version" type="attribute" inpkey="1656"/>
+										<entry name="POS" ns="1" expanded="1">
+											<entry name="Source" ns="1" inpkey="1657" expanded="1">
+												<entry name="ISOCurrency" type="attribute" inpkey="1658"/>
+												<entry name="TerminalID" type="attribute" inpkey="1659"/>
+												<entry name="RequestorID" ns="1" expanded="1">
+													<entry name="CompanyName" ns="1" expanded="1"/>
+												</entry>
+												<entry name="Position" ns="1" expanded="1"/>
+												<entry name="BookingChannel" ns="1" expanded="1">
+													<entry name="Type" type="attribute" inpkey="1660"/>
+													<entry name="CompanyName" ns="1" expanded="1">
+														<entry name="Code" type="attribute" inpkey="1661"/>
+														<entry name="Department" type="attribute" inpkey="1662"/>
+													</entry>
+												</entry>
+											</entry>
+										</entry>
+										<entry name="AirItinerary" ns="1" expanded="1">
+											<entry name="OriginDestinationOptions" ns="1" expanded="1">
+												<entry name="OriginDestinationOption" ns="1" expanded="1">
+													<entry name="FlightSegment" ns="1" inpkey="1663" outkey="1664" expanded="1">
+														<entry name="DepartureAirport" ns="1" expanded="1"/>
+														<entry name="ArrivalAirport" ns="1" expanded="1"/>
+														<entry name="MarketingAirline" ns="1" expanded="1"/>
+														<entry name="TPA_Extensions" ns="1" expanded="1"/>
+													</entry>
+												</entry>
+											</entry>
+										</entry>
+										<entry name="PriceInfo" ns="1">
+											<entry name="ItinTotalFare" ns="1" expanded="1"/>
+										</entry>
+										<entry name="TravelerInfo" ns="1" expanded="1">
+											<entry name="AirTraveler" ns="1" inpkey="1665" expanded="1">
+												<entry name="Gender" type="attribute" inpkey="1666"/>
+												<entry name="BirthDate" type="attribute" inpkey="1667"/>
+												<entry name="PassengerTypeCode" type="attribute" inpkey="1668"/>
+												<entry name="ProfileRef" ns="1" expanded="1">
+													<entry name="UniqueID" ns="1" expanded="1"/>
+												</entry>
+												<entry name="PersonName" ns="1" inpkey="1669" expanded="1">
+													<entry name="NamePrefix" ns="1" inpkey="1670"/>
+													<entry name="GivenName" ns="1" inpkey="1671"/>
+													<entry name="Surname" ns="1" inpkey="1672"/>
+													<entry name="NameTitle" ns="1" inpkey="1673"/>
+												</entry>
+												<entry name="Telephone" ns="1" inpkey="1674">
+													<entry name="PhoneNumber" type="attribute" inpkey="1675"/>
+													<entry name="Remark" type="attribute" inpkey="1676"/>
+												</entry>
+												<entry name="Email" ns="1" inpkey="1677">
+													<entry name="Remark" type="attribute" inpkey="1678"/>
+												</entry>
+												<entry name="TravelerRefNumber" ns="1" expanded="1">
+													<entry name="RPH" type="attribute" inpkey="1679"/>
+												</entry>
+												<entry name="FlightSegmentRPHs" ns="1" expanded="1"/>
+											</entry>
+											<entry name="SpecialReqDetails" ns="1" inpkey="1680" expanded="1">
+												<entry name="SeatRequests" ns="1" inpkey="1681" expanded="1">
+													<entry name="SeatRequest" ns="1" inpkey="1682" expanded="1"/>
+												</entry>
+												<entry name="SpecialServiceRequests" ns="1" expanded="1">
+													<entry name="SpecialServiceRequest" ns="1" expanded="1">
+														<entry name="Airline" ns="1" expanded="1"/>
+													</entry>
+												</entry>
+												<entry name="SpecialRemarks" ns="1" inpkey="1690" expanded="1">
+													<entry name="SpecialRemark" ns="1" inpkey="1691" expanded="1">
+														<entry name="RemarkType" type="attribute" inpkey="1692"/>
+														<entry name="Text" ns="1" inpkey="1693"/>
+													</entry>
+												</entry>
+											</entry>
+										</entry>
+										<entry name="Ticketing" ns="1" inpkey="1694" expanded="1">
+											<entry name="TicketType" type="attribute" inpkey="1695"/>
+											<entry name="FlightSegmentRefNumber" type="attribute" inpkey="1696"/>
+											<entry name="TravelerRefNumber" type="attribute" inpkey="1697"/>
+											<entry name="TicketDocumentNbr" type="attribute" inpkey="1698"/>
+											<entry name="PassengerTypeCode" type="attribute" inpkey="1699"/>
+											<entry name="TicketAdvisory" ns="1" expanded="1"/>
+											<entry name="TicketingVendor" ns="1" expanded="1"/>
+											<entry name="PricingSystem" ns="1" expanded="1"/>
+											<entry name="TotalFare" ns="1" expanded="1"/>
+										</entry>
+										<entry name="BookingReferenceID" ns="1" expanded="1">
+											<entry name="Type" type="attribute" inpkey="1700"/>
+											<entry name="ID" type="attribute" inpkey="1701"/>
+											<entry name="CompanyName" ns="1" expanded="1">
+												<entry name="Code" type="attribute" inpkey="1702"/>
+											</entry>
+										</entry>
+										<entry name="TPA_Extensions" ns="1" expanded="1"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="C:\Andreas\Dropbox\W1\wip-gmi\PNR Migrations\ota\OTA_AirBookRQ.xsd" inputinstance="\\anne-mette-pc\c$\Andreas\Dropbox\W1\wip-gmi\PNR Migrations\ota\OTA_AirBookRQ_sample_long.xml" outputinstance="\\anne-mette-pc\c$\Andreas\Dropbox\W1\wip-gmi\PNR Migrations\ota\OTA_AirBookRQ_sample_long.xml" instanceroot="{http://www.opentravel.org/OTA/2003/05}OTA_AirBookRQ" userdefinedschemalocation="C:/Andreas/Dropbox/W1/wip-gmi/PNR Migrations/ota/OTA_AirBookRQ.xsd"/>
+						<wsdl/>
+					</data>
+				</component>
 				<component name="constant" library="core" uid="446" kind="2">
 					<properties/>
 					<targets>
@@ -1959,7 +1959,7 @@
 					</targets>
 					<view ltx="19" lty="-423" rbx="172" rby="-405"/>
 					<data>
-						<constant value="201504" datatype="string"/>
+						<constant value="201505" datatype="string"/>
 						<wsdl/>
 					</data>
 				</component>
