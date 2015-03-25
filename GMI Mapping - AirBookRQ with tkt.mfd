@@ -1113,20 +1113,6 @@
 					</targets>
 					<view ltx="1255" lty="-275" rbx="1369" rby="-202"/>
 				</component>
-				<component name="concat" library="core" uid="68" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1303"/>
-						<datapoint pos="1" key="1327"/>
-						<datapoint pos="2" key="120"/>
-						<datapoint pos="3" key="1244"/>
-						<datapoint pos="4" key="121"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="642"/>
-					</targets>
-					<view ltx="731" lty="-280" rbx="824" rby="-168"/>
-				</component>
 				<component name="constant" library="core" uid="754" kind="2">
 					<properties/>
 					<targets>
@@ -1195,20 +1181,6 @@
 						<datapoint/>
 					</targets>
 					<view ltx="477" lty="-184" rbx="580" rby="-128"/>
-				</component>
-				<component name="concat" library="core" uid="753" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="1907"/>
-						<datapoint pos="1" key="1906"/>
-						<datapoint pos="2" key="1918"/>
-						<datapoint pos="3" key="1919"/>
-						<datapoint pos="4" key="1904"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1903"/>
-					</targets>
-					<view ltx="858" lty="-356" rbx="951" rby="-244"/>
 				</component>
 				<component name="filter" library="core" uid="364" kind="3">
 					<properties/>
@@ -1811,17 +1783,6 @@
 					</targets>
 					<view ltx="1221" lty="841" rbx="1335" rby="914"/>
 				</component>
-				<component name="constant" library="core" uid="331" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="1079"/>
-					</targets>
-					<view ltx="-260" lty="-262" rbx="-39" rby="-244"/>
-					<data>
-						<constant value="I:\GMI\FTPFiles\PNR by day flight date\M" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
 				<component name="constant" library="core" uid="501" kind="2">
 					<properties/>
 					<targets>
@@ -1952,15 +1913,79 @@
 						<wsdl/>
 					</data>
 				</component>
+				<component name="constant" library="core" uid="331" kind="2">
+					<properties/>
+					<targets>
+						<datapoint/>
+					</targets>
+					<view ltx="-260" lty="-262" rbx="-39" rby="-244"/>
+					<data>
+						<constant value="I:\GMI\FTPFiles\PNR by day flight date\M" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="concat" library="core" uid="753" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1907"/>
+						<datapoint pos="1" key="1906"/>
+						<datapoint pos="2" key="1918"/>
+						<datapoint pos="3" key="1919"/>
+						<datapoint pos="4" key="1904"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1903"/>
+					</targets>
+					<view ltx="858" lty="-356" rbx="951" rby="-244"/>
+				</component>
 				<component name="constant" library="core" uid="446" kind="2">
 					<properties/>
 					<targets>
 						<datapoint pos="0" key="1245"/>
 					</targets>
-					<view ltx="19" lty="-423" rbx="172" rby="-405"/>
+					<view ltx="-177" lty="-468" rbx="-24" rby="-450"/>
 					<data>
-						<constant value="201505" datatype="string"/>
+						<constant value="201507" datatype="string"/>
 						<wsdl/>
+					</data>
+				</component>
+				<component name="concat" library="core" uid="68" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1303"/>
+						<datapoint pos="1" key="1327"/>
+						<datapoint pos="2" key="120"/>
+						<datapoint pos="3" key="1244"/>
+						<datapoint pos="4" key="121"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="642"/>
+					</targets>
+					<view ltx="731" lty="-280" rbx="824" rby="-168"/>
+				</component>
+				<component name="uppercase" library="lang" uid="774" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2003"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2004"/>
+					</targets>
+					<view ltx="136" lty="-478" rbx="246" rby="-439"/>
+				</component>
+				<component name="month" library="core" uid="772" kind="6">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2005"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2006"/>
+					</targets>
+					<view ltx="-6" lty="-566" rbx="83" rby="-527"/>
+					<data>
+						<input datatype="string" previewvalue="201512" usepreviewvalue="1"/>
+						<wsdl/>
+						<parameter usageKind="input" name="month"/>
 					</data>
 				</component>
 			</children>
@@ -2454,11 +2479,6 @@
 							<edge vertexkey="1673" edgekey="1726"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="1079">
-						<edges>
-							<edge vertexkey="1262" edgekey="1263"/>
-						</edges>
-					</vertex>
 					<vertex vertexkey="1087">
 						<edges>
 							<edge vertexkey="1174" edgekey="1186"/>
@@ -2536,10 +2556,8 @@
 					</vertex>
 					<vertex vertexkey="1245">
 						<edges>
-							<edge vertexkey="1244" edgekey="1259"/>
 							<edge vertexkey="1246" edgekey="1260"/>
-							<edge vertexkey="1327" edgekey="1344"/>
-							<edge vertexkey="1919" edgekey="1929"/>
+							<edge vertexkey="2005" edgekey="2007"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1248">
@@ -2914,6 +2932,19 @@
 					<vertex vertexkey="1989">
 						<edges>
 							<edge vertexkey="1985" edgekey="2002"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2004">
+						<edges>
+							<edge vertexkey="1262" edgekey="2008"/>
+							<edge vertexkey="1919" edgekey="2009"/>
+							<edge vertexkey="1327" edgekey="2010"/>
+							<edge vertexkey="1244" edgekey="2011"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2006">
+						<edges>
+							<edge vertexkey="2003" edgekey="2012"/>
 						</edges>
 					</vertex>
 				</vertices>
